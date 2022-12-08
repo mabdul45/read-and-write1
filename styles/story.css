@@ -1,6 +1,6 @@
 section {
-    margin-top: 4rem;
-    margin-bottom: 2rem;
+    /* margin-top: 4rem;
+    margin-bottom: 2rem; */
 }
 
 section > h2 {
@@ -61,15 +61,18 @@ font-size: 16px;
 line-height: 23px;*/
 
 @media only screen and (max-width: 768px) {
+    html {
+        font-size: 50%;
+    }
     .section-items {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
 
-@media only screen and (max-width: 455px) {
+@media only screen and (max-width: 378px) {
     html {
-        font-size: 50%;
+        font-size: 40%;
     }
     .section-items {
         display: grid;

@@ -1,8 +1,8 @@
 /* @import 'header.css'; */
 
 section {
-    width: 90%;
-    margin: 5rem auto 0;
+    /* width: 90%; */
+    /* margin: 5rem auto 0; */
 }
 
 section > h1 {
@@ -54,8 +54,14 @@ form a {
     border: none;
 } 
 
-@media only screen and (max-width: 455px) {
+@media only screen and (max-width: 768px) {
     html {
         font-size: 50%;
+    }
+}
+
+@media only screen and (max-width: 378px) {
+    html {
+        font-size: 40%;
     }
 }
