@@ -6,9 +6,11 @@
 }
 
 @font-face {
-    font-family: 'MuseoModerno';
-    src: url(/fonts/MuseoModerno-Regular.ttf) format(tttf), format(svg);
+    font-family: 'MuseoModerno', sans-serif;
+    src: url(/fonts/MuseoModerno-Regular.ttf) format(ttf), format(svg);
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@700&family=MuseoModerno:wght@400;800&display=swap');
 
 html {
     font-size: 62.5%;
