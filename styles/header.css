@@ -5,17 +5,12 @@
     text-decoration: none;
 }
 
-@font-face {
-    font-family: 'MuseoModerno';
-    src: url(/fonts/MuseoModerno-Regular.ttf) format(ttf), format(svg);
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@700&family=MuseoModerno:wght@400;800&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@700&family=MuseoModerno:wght@400;800&display=swap'); */
 
 html {
     font-size: 62.5%;
-    font-family: 'MuseoModerno,', sans-serif;
-    font-weight: 500;
+    font-family: 'MuseoModerno', sans-serif;
+    font-weight: 400;
 }
 
 header {
