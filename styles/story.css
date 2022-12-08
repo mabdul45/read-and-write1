@@ -27,8 +27,8 @@ section > h2 {
     box-shadow: 0px 2px 4px 1px rgba(76, 224, 210, 0.8);
 }
 
-.section-items div >:is(a:link,a:active,){
-color: aqua;
+.section-items div >:is(a:active){
+color:rgba(76, 224, 210, 0.8);
 } 
 
 .section-items h3 {

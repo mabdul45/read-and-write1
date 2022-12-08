@@ -51,3 +51,9 @@ form a {
     text-align: left;
     border: none;
 } 
+
+@media only screen and (max-width: 455px) {
+    html {
+        font-size: 50%;
+    }
+}
