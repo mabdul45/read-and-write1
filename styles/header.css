@@ -1,0 +1,46 @@
+*,*::after,*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'MuseoModerno';
+    font-weight: 500;
+}
+
+header {
+    box-shadow: 0px 2px 4px 1px rgba(76, 224, 210, 0.8);
+}
+
+::selection {
+    color: #22AAA1;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 5rem;
+}
+
+.header > h1 {
+color: #136F63;
+font-weight: 500;
+font-size: 2.6rem;
+}
+
+.header > a {
+    border: none;
+    font-size: 1.6rem;
+    color: #fff;
+    background-color: #22AAA1;
+    padding: 1rem;
+    border-radius: 4px;
+}
+
+.header > a:hover {
+    cursor: pointer;
+}

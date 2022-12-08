@@ -1,0 +1,53 @@
+section {
+    width: 90%;
+    margin: 5rem auto 0;
+}
+
+section > h1 {
+    color: rgba(19, 111, 99, 1);
+    ;
+    font-size: 3rem;
+    text-align: center;
+}
+
+
+form {
+margin-top: .5rem;
+}
+
+label {
+    text-transform: uppercase;
+    display: block;
+    color: rgba(19, 111, 99, 1);
+    ;
+    font-size: 2rem;
+}
+
+form div {
+margin-top: 1rem;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 2px 5px;
+    border: 1px solid black;
+    margin: 1rem 0;
+    font-size: 1.4rem;
+    outline: none;
+}
+
+#article {
+    resize: none;
+    height: 40vh;
+}
+
+form a {
+    display: inline-block;
+    background-color: rgba(34, 170, 161, 1);
+    color: #fff;
+    font-size: 1.6rem;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-align: left;
+    border: none;
+} 

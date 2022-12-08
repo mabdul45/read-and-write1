@@ -1,0 +1,59 @@
+section {
+    width: 90%;
+    margin: 4rem auto 2rem;
+}
+
+section > h1 {
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+section > p {
+    display: block;
+    font-size: 1.6rem;
+    line-height: 1.4;
+    margin-top: 
+    10px;
+}
+
+.btn {
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    text-align: right;
+    margin-top: 4rem;
+}
+
+.btn a {
+    color: rgba(34, 170, 161, 1);
+    ;
+    border: 4px solid rgba(34, 170, 161, 1);
+    border-radius: 4px;
+    padding: 1rem 3rem;
+}
+
+.btn a:not(:last-child) {
+    margin-right: 4rem;
+}
+
+@media only screen and (max-width: 379px) {
+
+    html {
+        font-size: 50%;
+    }
+
+    .btn {
+        text-align: center;
+        font-size: 1.6rem;
+        /* margin: 4rem auto 0; */
+    }
+    
+    .btn a {
+        border: 2px solid rgba(34, 170, 161, 1);
+        border-radius: 2px;
+        padding: 8px 15px;
+    }
+    
+    .btn a:not(:last-child) {
+        margin-right: 2rem;
+    }
+}
