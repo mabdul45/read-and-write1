@@ -38,31 +38,35 @@ section > p {
     margin-right: 4rem;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
     html {
         font-size: 50%;
     }
 }
 
-@media only screen and (max-width: 378px) {
+@media only screen and (max-width: 768px) {
+    html {
+        font-size: 40%;}
+
+        .btn {
+            text-align: center;
+            font-size: 1.6rem;
+        }
+        
+        .btn a {
+            border: 2px solid rgba(34, 170, 161, 1);
+            border-radius: 2px;
+            padding: 8px 15px;
+        }
+        
+        .btn a:not(:last-child) {
+            margin-right: 2rem;
+        }
+}
+
+@media only screen and (max-width: 320px) {
 
     html {
-        font-size: 40%;
-    }
-
-    .btn {
-        text-align: center;
-        font-size: 1.6rem;
-        /* margin: 4rem auto 0; */
-    }
-    
-    .btn a {
-        border: 2px solid rgba(34, 170, 161, 1);
-        border-radius: 2px;
-        padding: 8px 15px;
-    }
-    
-    .btn a:not(:last-child) {
-        margin-right: 2rem;
+        font-size: 30%;
     }
 }

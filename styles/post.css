@@ -54,14 +54,20 @@ form a {
     border: none;
 } 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
     html {
         font-size: 50%;
     }
 }
 
-@media only screen and (max-width: 378px) {
+@media only screen and (max-width: 768px) {
     html {
         font-size: 40%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    html {
+        font-size: 30%;
     }
 }
