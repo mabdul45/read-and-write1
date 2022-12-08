@@ -12,6 +12,7 @@ section > h1 {
 
 section > p {
     display: block;
+    font-family: 'Murecho', sans-serif;
     font-size: 1.6rem;
     line-height: 1.4;
     margin-top: 

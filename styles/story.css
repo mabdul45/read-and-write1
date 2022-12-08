@@ -39,7 +39,7 @@ text-align: center;
 }
 
 .section-items  p {
-    font-family: 'Murecho';
+    font-family: 'Murecho', sans-serif;
     margin-top: 1rem;
 }
 
@@ -47,7 +47,7 @@ text-align: center;
     display: block;
     color: rgba(19, 111, 99, 1);
     font-size: 1.4rem;
-    font-family: 'Murecho';
+    font-family: 'Murecho', sans-serif;
     text-align: right;
     margin-top: .5rem;
 }
