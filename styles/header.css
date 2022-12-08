@@ -5,6 +5,11 @@
     text-decoration: none;
 }
 
+@font-face {
+    font-family: 'MuseoModerno';
+    src: url(/fonts/MuseoModerno-Regular.ttf) format(tttf), format(svg);
+}
+
 html {
     font-size: 62.5%;
     font-family: 'MuseoModerno';
