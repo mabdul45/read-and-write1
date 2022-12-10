@@ -52,7 +52,7 @@ section p, h6 {
         }    
 
         section {
-            max-width: 50%;
+            max-width: 70rem;
         }
     
 }
@@ -67,7 +67,7 @@ section p, h6 {
         }   
 
         section {
-            max-width: 50%;
+            max-width: 55rem;
         }
     
 
@@ -98,7 +98,7 @@ section p, h6 {
     }  
     
     section {
-        max-width: 50%;
+        max-width: 35rem;
     }
 
 }
