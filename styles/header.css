@@ -36,6 +36,9 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 2rem 5rem;
+    max-width: 110rem;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .header > h1 {

@@ -10,15 +10,17 @@ section > h2 {
     place-items: center;
     justify-items: center;
     grid-gap: 2rem;
-    /* min-width: 20rem; */
+    max-width: 100rem;
+    width: 100%;
+    margin: 2rem auto 0;
+
     /* flex-wrap: wrap;
     justify-content: space-around; */
-    margin-top: 2rem;
 }
 
 .section-items div {
     max-width: 25rem;
-    /* width: 80%; */
+    width: 100%;
     padding: 2rem;
     margin-top: 2rem;
     box-shadow: 0px 2px 4px 1px rgba(76, 224, 210, 0.8);
@@ -61,11 +63,16 @@ line-height: 23px;*/
     html {
         font-size: 50%;
     }
+
+    .header {
+    max-width: 90rem;
+    }    
+
+
     .section-items {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-
-        /* min-width: 100rem; */
+        max-width: 80rem;
     }
 }
 
@@ -73,26 +80,31 @@ line-height: 23px;*/
     html {
         font-size: 40%;
     }
+
+    .header {
+        max-width: 70rem;
+    }   
+
     .section-items {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        max-width: 83%;
-        margin: 0 auto;
-        /* min-width: 20rem; */
+        max-width: 60rem;
     }
 
-    .section-items div {
-        /* max-width: 18rem; */
-    }
 }
 
 @media only screen and (max-width: 320px) {
     html {
         font-size: 30%;
     }
+
+    .header {
+        max-width: 45rem;
+    }   
+
+
     .section-items {
         display: grid;
         grid-template-columns: 1fr;
-        /* min-width: 20rem; */
     }
 }
