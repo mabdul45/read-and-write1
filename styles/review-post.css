@@ -10,13 +10,16 @@ section > h1 {
     font-family: 'MuseoModerno',sans-serif;
 }
 
-section > p {
+h6 {
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+section p, h6 {
     display: block;
     font-family: 'Murecho', sans-serif;
     font-size: 1.6rem;
     line-height: 1.4;
-    margin-top: 
-    10px;
 }
 
 .btn {
@@ -42,11 +45,31 @@ section > p {
     html {
         font-size: 50%;
     }
+
+    
+    .header {
+        max-width: 90rem;
+        }    
+
+        section {
+            max-width: 50%;
+        }
+    
 }
 
 @media only screen and (max-width: 768px) {
     html {
-        font-size: 40%;}
+        font-size: 40%;
+    }
+
+        .header {
+            max-width: 70rem;
+        }   
+
+        section {
+            max-width: 50%;
+        }
+    
 
         .btn {
             text-align: center;
@@ -69,4 +92,13 @@ section > p {
     html {
         font-size: 30%;
     }
+
+    .header {
+        max-width: 45rem;
+    }  
+    
+    section {
+        max-width: 50%;
+    }
+
 }

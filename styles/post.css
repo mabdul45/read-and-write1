@@ -32,7 +32,8 @@ margin-top: 1rem;
 input, textarea {
     width: 100%;
     padding: 5px 8px;
-    border: 1px solid black;
+    border: 1px solid rgba(34, 170, 161, 1);
+    box-shadow: 0px 4px 4px 0px rgba(34, 170, 161, 0.25);
     margin: 1rem 0;
     font-size: 1.4rem;
     outline: none;
@@ -58,16 +59,44 @@ form a {
     html {
         font-size: 50%;
     }
+
+    
+    .header {
+        max-width: 90rem;
+        }    
+
+        section {
+            max-width: 50%;
+        }
+    
 }
 
 @media only screen and (max-width: 768px) {
     html {
         font-size: 40%;
     }
+
+    .header {
+        max-width: 70rem;
+    }   
+
+    section {
+        max-width: 50%;
+    }
+
 }
 
 @media only screen and (max-width: 320px) {
     html {
         font-size: 30%;
     }
+
+    .header {
+        max-width: 45rem;
+    }  
+    
+    section {
+        max-width: 50%;
+    }
+
 }
